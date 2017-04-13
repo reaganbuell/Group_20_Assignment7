@@ -146,8 +146,8 @@ class Enemy{
     pos.set(constrain(pos.x,0,width),constrain(pos.y,0,height));
     
         
-    print(ground);
-    println(collisionSide);
+    //print(ground);
+    //println(collisionSide);
   }
   
   

@@ -9,6 +9,7 @@ class Score{
   //increments the score when called on
   void incrementScore(){
     score ++;
+    println(score);
   }
   
   //sets score to 0 when called on

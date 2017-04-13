@@ -265,7 +265,7 @@ class Enivornment {
       w.generateBoundaries();      
       if(detectEdge(a,w) && !a.currentState.equals("Dead")){
         a.changeState("Dead");
-        print(a.currentState);
+        //print(a.currentState);
       }
       if(detectEdge(e,w) && e.goRight){
         e.goRight = false;
